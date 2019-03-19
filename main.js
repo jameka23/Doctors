@@ -11,3 +11,6 @@ const doctor = (name, specialty, address) => ({
     "specialty": specialty,
     "address": address
 })
+
+const Ted = doctor("Theodore", "Obstrician", "4300 Brush Hill");
+console.log(Ted)
